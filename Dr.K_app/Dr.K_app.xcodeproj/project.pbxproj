@@ -393,6 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dr.K_app/Dr.K_app-Prefix.pch";
 				INFOPLIST_FILE = "Dr.K_app/Dr.K_app-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -407,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dr.K_app/Dr.K_app-Prefix.pch";
 				INFOPLIST_FILE = "Dr.K_app/Dr.K_app-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -472,6 +474,7 @@
 				A9A4871718D922B8004B8D4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9A4871818D922B8004B8D4B /* Build configuration list for PBXNativeTarget "Dr.K_appTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +483,7 @@
 				A9A4871A18D922B8004B8D4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
