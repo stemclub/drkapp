@@ -1,5 +1,5 @@
 //
-//  MyScene.h
+//  DRKMainMenuScene.h
 //  Dr.K_app
 //
 
@@ -8,6 +8,6 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface MyScene : SKScene
+@interface DRKMainMenuScene : SKScene
 
 @end
