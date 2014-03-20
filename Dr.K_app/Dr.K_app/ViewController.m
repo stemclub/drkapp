@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "MyScene.h"
+#import "DRKMainMenuScene.h"
 
 @implementation ViewController
 
@@ -24,7 +24,7 @@
     skView.showsNodeCount = NO;
     
     // Create and configure the scene.
-    SKScene * scene = [MyScene sceneWithSize:skView.bounds.size];
+    SKScene * scene = [DRKMainMenuScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     self.loadingLabel.hidden = YES;

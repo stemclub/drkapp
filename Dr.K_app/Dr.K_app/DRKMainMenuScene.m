@@ -1,14 +1,14 @@
 //
-//  MyScene.m
+//  DRKMainMenuScene.m
 //  Dr.K_app
 //
 //  Created by Edward Li, Ashton Rollins, and Anthony Li on 3/18/14.
 //  Copyright (c) 2014 GW STEM Club. All rights reserved.
 //
 
-#import "MyScene.h"
+#import "DRKMainMenuScene.h"
 
-@implementation MyScene
+@implementation DRKMainMenuScene
 
 -(id)initWithSize:(CGSize)size {    
     if (self = [super initWithSize:size]) {

@@ -16,7 +16,7 @@
 		A9A486F218D922B6004B8D4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A486F118D922B6004B8D4B /* AppDelegate.m */; };
 		A9A486F518D922B6004B8D4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A486F318D922B6004B8D4B /* Main.storyboard */; };
 		A9A486F818D922B6004B8D4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A486F718D922B6004B8D4B /* ViewController.m */; };
-		A9A486FB18D922B6004B8D4B /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A486FA18D922B6004B8D4B /* MyScene.m */; };
+		A9A486FB18D922B6004B8D4B /* DRKMainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A486FA18D922B6004B8D4B /* DRKMainMenuScene.m */; };
 		A9A486FD18D922B6004B8D4B /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A486FC18D922B6004B8D4B /* Spaceship.png */; };
 		A9A486FF18D922B7004B8D4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A486FE18D922B7004B8D4B /* Images.xcassets */; };
 		A9A4870618D922B8004B8D4B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A4870518D922B8004B8D4B /* XCTest.framework */; };
@@ -51,8 +51,8 @@
 		A9A486F418D922B6004B8D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9A486F618D922B6004B8D4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A9A486F718D922B6004B8D4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A9A486F918D922B6004B8D4B /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
-		A9A486FA18D922B6004B8D4B /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		A9A486F918D922B6004B8D4B /* DRKMainMenuScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRKMainMenuScene.h; sourceTree = "<group>"; };
+		A9A486FA18D922B6004B8D4B /* DRKMainMenuScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRKMainMenuScene.m; sourceTree = "<group>"; };
 		A9A486FC18D922B6004B8D4B /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		A9A486FE18D922B7004B8D4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A9A4870418D922B8004B8D4B /* Dr.K_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dr.K_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,8 +126,8 @@
 				A9A486F318D922B6004B8D4B /* Main.storyboard */,
 				A9A486F618D922B6004B8D4B /* ViewController.h */,
 				A9A486F718D922B6004B8D4B /* ViewController.m */,
-				A9A486F918D922B6004B8D4B /* MyScene.h */,
-				A9A486FA18D922B6004B8D4B /* MyScene.m */,
+				A9A486F918D922B6004B8D4B /* DRKMainMenuScene.h */,
+				A9A486FA18D922B6004B8D4B /* DRKMainMenuScene.m */,
 				A9A486FC18D922B6004B8D4B /* Spaceship.png */,
 				A9A486FE18D922B7004B8D4B /* Images.xcassets */,
 				A9A486E818D922B6004B8D4B /* Supporting Files */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A486FB18D922B6004B8D4B /* MyScene.m in Sources */,
+				A9A486FB18D922B6004B8D4B /* DRKMainMenuScene.m in Sources */,
 				A9A486F818D922B6004B8D4B /* ViewController.m in Sources */,
 				A9A486F218D922B6004B8D4B /* AppDelegate.m in Sources */,
 				A9A486EE18D922B6004B8D4B /* main.m in Sources */,
