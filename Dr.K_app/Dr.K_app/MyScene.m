@@ -31,7 +31,7 @@
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     /* Called when a touch begins */
     
-    for (UITouch *touch in touches) {
+    /* for (UITouch *touch in touches) {
         CGPoint location = [touch locationInNode:self];
         
         SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
@@ -43,7 +43,7 @@
         [sprite runAction:[SKAction repeatActionForever:action]];
         
         [self addChild:sprite];
-    }
+    } */
 }
 
 -(void)update:(CFTimeInterval)currentTime {
