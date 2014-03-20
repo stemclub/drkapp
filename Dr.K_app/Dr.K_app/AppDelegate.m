@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  Dr.K_app
 //
-//  Created by Edward Li on 3/18/14.
+//  Created by Edward Li, Ashton Rollins, and Anthony Li on 3/18/14.
 //  Copyright (c) 2014 GW STEM Club. All rights reserved.
 //
 
