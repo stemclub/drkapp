@@ -14,6 +14,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.loadingLabel.hidden = NO;
+    self.loadingLabel.alpha = 1.0;
 
     // Configure the view.
     SKView * skView = (SKView *)self.view;
@@ -23,6 +26,8 @@
     // Create and configure the scene.
     SKScene * scene = [MyScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
+    
+    [self.loadingLabel setAlpha:0.0];
     
     // Present the scene.
     [skView presentScene:scene];
