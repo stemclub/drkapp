@@ -24,9 +24,9 @@
 		A9A4870818D922B8004B8D4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A486E318D922B6004B8D4B /* UIKit.framework */; };
 		A9A4871018D922B8004B8D4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9A4870E18D922B8004B8D4B /* InfoPlist.strings */; };
 		A9A4871218D922B8004B8D4B /* Dr_K_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A4871118D922B8004B8D4B /* Dr_K_appTests.m */; };
-		A9B5E29318DBAB5700B3EB67 /* Locker_square_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B5E29018DBAB5700B3EB67 /* Locker_square_blue.png */; };
-		A9B5E29418DBAB5700B3EB67 /* Locker_square_green.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B5E29118DBAB5700B3EB67 /* Locker_square_green.png */; };
-		A9B5E29518DBAB5700B3EB67 /* Locker_square_red.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B5E29218DBAB5700B3EB67 /* Locker_square_red.png */; };
+		A9B5E29918DBAC2400B3EB67 /* Locker_square_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B5E29618DBAC2400B3EB67 /* Locker_square_blue.png */; };
+		A9B5E29A18DBAC2400B3EB67 /* Locker_square_green.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B5E29718DBAC2400B3EB67 /* Locker_square_green.png */; };
+		A9B5E29B18DBAC2400B3EB67 /* Locker_square_red.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B5E29818DBAC2400B3EB67 /* Locker_square_red.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,9 +64,9 @@
 		A9A4870D18D922B8004B8D4B /* Dr.K_appTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dr.K_appTests-Info.plist"; sourceTree = "<group>"; };
 		A9A4870F18D922B8004B8D4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A9A4871118D922B8004B8D4B /* Dr_K_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dr_K_appTests.m; sourceTree = "<group>"; };
-		A9B5E29018DBAB5700B3EB67 /* Locker_square_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Locker_square_blue.png; path = ../../../Locker_square_blue.png; sourceTree = "<group>"; };
-		A9B5E29118DBAB5700B3EB67 /* Locker_square_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Locker_square_green.png; path = ../../../Locker_square_green.png; sourceTree = "<group>"; };
-		A9B5E29218DBAB5700B3EB67 /* Locker_square_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Locker_square_red.png; path = ../../../Locker_square_red.png; sourceTree = "<group>"; };
+		A9B5E29618DBAC2400B3EB67 /* Locker_square_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Locker_square_blue.png; sourceTree = "<group>"; };
+		A9B5E29718DBAC2400B3EB67 /* Locker_square_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Locker_square_green.png; sourceTree = "<group>"; };
+		A9B5E29818DBAC2400B3EB67 /* Locker_square_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Locker_square_red.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,10 +128,10 @@
 		A9A486E718D922B6004B8D4B /* Dr.K_app */ = {
 			isa = PBXGroup;
 			children = (
+				A9B5E29618DBAC2400B3EB67 /* Locker_square_blue.png */,
+				A9B5E29718DBAC2400B3EB67 /* Locker_square_green.png */,
+				A9B5E29818DBAC2400B3EB67 /* Locker_square_red.png */,
 				A9A486F018D922B6004B8D4B /* AppDelegate.h */,
-				A9B5E29018DBAB5700B3EB67 /* Locker_square_blue.png */,
-				A9B5E29118DBAB5700B3EB67 /* Locker_square_green.png */,
-				A9B5E29218DBAB5700B3EB67 /* Locker_square_red.png */,
 				A9A486F118D922B6004B8D4B /* AppDelegate.m */,
 				A9A486F318D922B6004B8D4B /* Main.storyboard */,
 				A9A486F618D922B6004B8D4B /* ViewController.h */,
@@ -251,9 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9B5E29418DBAB5700B3EB67 /* Locker_square_green.png in Resources */,
-				A9B5E29318DBAB5700B3EB67 /* Locker_square_blue.png in Resources */,
-				A9B5E29518DBAB5700B3EB67 /* Locker_square_red.png in Resources */,
+				A9B5E29A18DBAC2400B3EB67 /* Locker_square_green.png in Resources */,
+				A9B5E29918DBAC2400B3EB67 /* Locker_square_blue.png in Resources */,
+				A9B5E29B18DBAC2400B3EB67 /* Locker_square_red.png in Resources */,
 				A9A486EC18D922B6004B8D4B /* InfoPlist.strings in Resources */,
 				A9A486FF18D922B7004B8D4B /* Images.xcassets in Resources */,
 				A9A486F518D922B6004B8D4B /* Main.storyboard in Resources */,
