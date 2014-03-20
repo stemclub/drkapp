@@ -14,40 +14,30 @@
     if (self = [super initWithSize:size]) {
         /* Setup your scene here */
         
-        self.backgroundColor = [SKColor colorWithRed:0.15 green:0.15 blue:0.3 alpha:1.0];
+        self.backgroundColor = [SKColor blackColor];
         
-        SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
+        SKNode *blocksNode = [SKNode node];
+        blocksNode.name = @"blocks";
+        blocksNode.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
+        [self addChild:blocksNode];
         
-        myLabel.text = @"Dr. K is the best principal!!!!";
-        myLabel.fontSize = 30;
-        myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
-                                       CGRectGetMidY(self.frame));
+        CGRect topRect = CGRectMake(CGRectMinXEdge, CGRectGetMidY(self.frame), CGRectGetWidth(self.frame), CGRectGetHeight(self.frame) / 2);
         
-        [self addChild:myLabel];
+        SKLabelNode *topLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
+        topLabel.text = @"Schoolhouse";
+        topLabel.fontSize = 36;
+        topLabel.position = CGPointMake(CGRectGetMidX(topRect), CGRectGetMidY(topRect));
+        [self addChild:topLabel];
+        
+        
     }
     return self;
 }
 
--(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    /* Called when a touch begins */
-    
-    /* for (UITouch *touch in touches) {
-        CGPoint location = [touch locationInNode:self];
-        
-        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
-        
-        sprite.position = location;
-        
-        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
-        
-        [sprite runAction:[SKAction repeatActionForever:action]];
-        
-        [self addChild:sprite];
-    } */
-}
-
 -(void)update:(CFTimeInterval)currentTime {
     /* Called before each frame is rendered */
+    
+    /* */
 }
 
 @end
