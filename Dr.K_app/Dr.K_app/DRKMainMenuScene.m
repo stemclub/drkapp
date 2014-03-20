@@ -16,6 +16,8 @@
         
         self.backgroundColor = [SKColor blackColor];
         
+        // Setup the nodes
+        
         SKNode *blocksNode = [SKNode node];
         blocksNode.name = @"blocks";
         blocksNode.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
@@ -24,14 +26,32 @@
         CGRect topRect = CGRectMake(CGRectMinXEdge, CGRectGetMidY(self.frame), CGRectGetWidth(self.frame), CGRectGetHeight(self.frame) / 2);
         
         SKLabelNode *topLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
+        topLabel.name = @"topTitle";
+        topLabel.fontColor = [SKColor whiteColor];
         topLabel.text = @"Schoolhouse";
         topLabel.fontSize = 36;
         topLabel.position = CGPointMake(CGRectGetMidX(topRect), CGRectGetMidY(topRect));
+        topLabel.alpha = 0;
         [self addChild:topLabel];
         
-        
+        SKLabelNode *bottomLabel = [SKLabelNode labelNodeWithFontNamed:@"Menlo"];
+        bottomLabel.name = @"bottomTitle";
+        bottomLabel.fontColor = [SKColor yellowColor];
+        bottomLabel.text = @"TETRIS";
+        bottomLabel.fontSize = 48;
+        bottomLabel.position = CGPointMake(CGRectGetMidX(topRect), CGRectGetMidY(topRect) - (CGRectGetHeight(topLabel.frame) + 24));
+        bottomLabel.alpha = 0;
+        [self addChild:bottomLabel];
     }
     return self;
+}
+
+- (void)didMoveToView:(SKView *)view {
+    [[self childNodeWithName:@"topTitle"] runAction:[SKAction fadeInWithDuration:1.0] completion:^{
+        [[self childNodeWithName:@"bottomTitle"] runAction:[SKAction fadeInWithDuration:1.0] completion:^{
+            
+        }];
+    }];
 }
 
 -(void)update:(CFTimeInterval)currentTime {
