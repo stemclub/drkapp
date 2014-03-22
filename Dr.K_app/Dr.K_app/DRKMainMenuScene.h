@@ -10,6 +10,4 @@
 
 @interface DRKMainMenuScene : SKScene
 
-- (void)test;
-
 @end

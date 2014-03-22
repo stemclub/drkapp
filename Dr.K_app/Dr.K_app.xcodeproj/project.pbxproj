@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9264087518DBA79F00D47375 /* DRKButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9264087418DBA79F00D47375 /* DRKButtonNode.m */; };
 		A9A486E018D922B6004B8D4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A486DF18D922B6004B8D4B /* Foundation.framework */; };
 		A9A486E218D922B6004B8D4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A486E118D922B6004B8D4B /* CoreGraphics.framework */; };
 		A9A486E418D922B6004B8D4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A486E318D922B6004B8D4B /* UIKit.framework */; };
@@ -40,8 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9264087318DBA79F00D47375 /* DRKButtonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRKButtonNode.h; sourceTree = "<group>"; };
-		9264087418DBA79F00D47375 /* DRKButtonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRKButtonNode.m; sourceTree = "<group>"; };
 		A9A486DC18D922B6004B8D4B /* Dr.K_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dr.K_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A486DF18D922B6004B8D4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9A486E118D922B6004B8D4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -138,8 +135,6 @@
 				A9A486F718D922B6004B8D4B /* ViewController.m */,
 				A9A486F918D922B6004B8D4B /* DRKMainMenuScene.h */,
 				A9A486FA18D922B6004B8D4B /* DRKMainMenuScene.m */,
-				9264087318DBA79F00D47375 /* DRKButtonNode.h */,
-				9264087418DBA79F00D47375 /* DRKButtonNode.m */,
 				A9A486FE18D922B7004B8D4B /* Images.xcassets */,
 				A9A486E818D922B6004B8D4B /* Supporting Files */,
 			);
@@ -278,7 +273,6 @@
 				A9A486FB18D922B6004B8D4B /* DRKMainMenuScene.m in Sources */,
 				A9A486F818D922B6004B8D4B /* ViewController.m in Sources */,
 				A9A486F218D922B6004B8D4B /* AppDelegate.m in Sources */,
-				9264087518DBA79F00D47375 /* DRKButtonNode.m in Sources */,
 				A9A486EE18D922B6004B8D4B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

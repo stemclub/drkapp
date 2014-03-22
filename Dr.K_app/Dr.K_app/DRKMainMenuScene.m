@@ -7,7 +7,6 @@
 //
 
 #import "DRKMainMenuScene.h"
-#import "DRKButtonNode.h"
 
 @implementation DRKMainMenuScene
 
@@ -43,12 +42,6 @@
         bottomLabel.position = CGPointMake(CGRectGetMidX(topRect), CGRectGetMidY(topRect) - (CGRectGetHeight(topLabel.frame) + 24));
         bottomLabel.alpha = 0;
         [self addChild:bottomLabel];
-        
-        DRKButtonNode *button = [[DRKButtonNode alloc] initWithTexture:[SKTexture textureWithImageNamed:@"Locker_square_blue.png"] color:[UIColor whiteColor] size:CGSizeMake(20, 20)];
-        button.target = self;
-        button.selector = @selector(test);
-        button.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
-        [self addChild:button];
     }
     return self;
 }
@@ -59,10 +52,6 @@
             
         }];
     }];
-}
-
-- (void)test {
-    NSLog(@"%@", [self childNodeWithName:@"topTitle"]);
 }
 
 -(void)update:(CFTimeInterval)currentTime {
