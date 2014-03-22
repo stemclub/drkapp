@@ -15,7 +15,4 @@
 @property (weak) id target;
 @property SEL selector;
 
-@property (unsafe_unretained) BOOL activatesOnClick;
-@property (unsafe_unretained) BOOL activatesOnHover;
-
 @end

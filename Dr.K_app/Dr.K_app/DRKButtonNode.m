@@ -10,10 +10,12 @@
 
 @implementation DRKButtonNode
 
-- (id)init {
-    if (self = [super init]) {
+- (id)initWithTexture:(SKTexture *)texture color:(UIColor *)color size:(CGSize)size {
+    if (self = [super initWithTexture:texture color:color size:size]) {
+        self.colorBlendFactor = 0.0;
         SKLabelNode *buttonText = [[SKLabelNode alloc] init];
         buttonText.name = @"text";
+        buttonText.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
         [self addChild:buttonText];
     }
     return self;
@@ -24,7 +26,8 @@
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    
+    IMP method = [self.target methodForSelector:self.selector];
+    method(self.target, self.selector);
 }
 
 @end
