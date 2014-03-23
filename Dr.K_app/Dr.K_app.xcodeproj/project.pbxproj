@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		925AF72F18DF661900C4BE16 /* DRKMovingBlockSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 925AF72E18DF661900C4BE16 /* DRKMovingBlockSet.m */; };
 		925FBF1718DE6735000E9323 /* DRKGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 925FBF1618DE6735000E9323 /* DRKGameController.m */; };
 		925FBF1A18DE6745000E9323 /* DRKTetrisScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 925FBF1918DE6745000E9323 /* DRKTetrisScene.m */; };
 		A9A486E018D922B6004B8D4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A486DF18D922B6004B8D4B /* Foundation.framework */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		925AF72D18DF661900C4BE16 /* DRKMovingBlockSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRKMovingBlockSet.h; sourceTree = "<group>"; };
+		925AF72E18DF661900C4BE16 /* DRKMovingBlockSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRKMovingBlockSet.m; sourceTree = "<group>"; };
 		925FBF1518DE6735000E9323 /* DRKGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRKGameController.h; sourceTree = "<group>"; };
 		925FBF1618DE6735000E9323 /* DRKGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRKGameController.m; sourceTree = "<group>"; };
 		925FBF1818DE6745000E9323 /* DRKTetrisScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRKTetrisScene.h; sourceTree = "<group>"; };
@@ -97,6 +100,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		925AF73018DF825B00C4BE16 /* SpriteKit Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A9A486F918D922B6004B8D4B /* DRKMainMenuScene.h */,
+				A9A486FA18D922B6004B8D4B /* DRKMainMenuScene.m */,
+				925FBF1818DE6745000E9323 /* DRKTetrisScene.h */,
+				925FBF1918DE6745000E9323 /* DRKTetrisScene.m */,
+			);
+			name = "SpriteKit Scenes";
+			sourceTree = "<group>";
+		};
+		925AF73118DF826B00C4BE16 /* SpriteKit Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				925AF72D18DF661900C4BE16 /* DRKMovingBlockSet.h */,
+				925AF72E18DF661900C4BE16 /* DRKMovingBlockSet.m */,
+			);
+			name = "SpriteKit Nodes";
+			sourceTree = "<group>";
+		};
+		925AF73218DF827500C4BE16 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9A486F618D922B6004B8D4B /* ViewController.h */,
+				A9A486F718D922B6004B8D4B /* ViewController.m */,
+				925FBF1518DE6735000E9323 /* DRKGameController.h */,
+				925FBF1618DE6735000E9323 /* DRKGameController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		A9A486D318D922B4004B8D4B = {
 			isa = PBXGroup;
 			children = (
@@ -137,14 +171,9 @@
 				A9A486F018D922B6004B8D4B /* AppDelegate.h */,
 				A9A486F118D922B6004B8D4B /* AppDelegate.m */,
 				A9A486F318D922B6004B8D4B /* Main.storyboard */,
-				A9A486F618D922B6004B8D4B /* ViewController.h */,
-				A9A486F718D922B6004B8D4B /* ViewController.m */,
-				A9A486F918D922B6004B8D4B /* DRKMainMenuScene.h */,
-				A9A486FA18D922B6004B8D4B /* DRKMainMenuScene.m */,
-				925FBF1518DE6735000E9323 /* DRKGameController.h */,
-				925FBF1618DE6735000E9323 /* DRKGameController.m */,
-				925FBF1818DE6745000E9323 /* DRKTetrisScene.h */,
-				925FBF1918DE6745000E9323 /* DRKTetrisScene.m */,
+				925AF73218DF827500C4BE16 /* View Controllers */,
+				925AF73018DF825B00C4BE16 /* SpriteKit Scenes */,
+				925AF73118DF826B00C4BE16 /* SpriteKit Nodes */,
 				A9A486FE18D922B7004B8D4B /* Images.xcassets */,
 				A9A486E818D922B6004B8D4B /* Supporting Files */,
 			);
@@ -281,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9A486FB18D922B6004B8D4B /* DRKMainMenuScene.m in Sources */,
+				925AF72F18DF661900C4BE16 /* DRKMovingBlockSet.m in Sources */,
 				A9A486F818D922B6004B8D4B /* ViewController.m in Sources */,
 				925FBF1718DE6735000E9323 /* DRKGameController.m in Sources */,
 				925FBF1A18DE6745000E9323 /* DRKTetrisScene.m in Sources */,

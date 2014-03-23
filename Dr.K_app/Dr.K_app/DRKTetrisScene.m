@@ -10,4 +10,13 @@
 
 @implementation DRKTetrisScene
 
+- (id)initWithSize:(CGSize)size {
+    if (self = [super initWithSize:size]) {
+        
+    }
+    return self;
+}
+
+
+
 @end
