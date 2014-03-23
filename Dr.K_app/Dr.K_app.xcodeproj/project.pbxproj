@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		925FBF1718DE6735000E9323 /* DRKGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 925FBF1618DE6735000E9323 /* DRKGameController.m */; };
+		925FBF1A18DE6745000E9323 /* DRKTetrisScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 925FBF1918DE6745000E9323 /* DRKTetrisScene.m */; };
 		A9A486E018D922B6004B8D4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A486DF18D922B6004B8D4B /* Foundation.framework */; };
 		A9A486E218D922B6004B8D4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A486E118D922B6004B8D4B /* CoreGraphics.framework */; };
 		A9A486E418D922B6004B8D4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A486E318D922B6004B8D4B /* UIKit.framework */; };
@@ -39,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		925FBF1518DE6735000E9323 /* DRKGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRKGameController.h; sourceTree = "<group>"; };
+		925FBF1618DE6735000E9323 /* DRKGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRKGameController.m; sourceTree = "<group>"; };
+		925FBF1818DE6745000E9323 /* DRKTetrisScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRKTetrisScene.h; sourceTree = "<group>"; };
+		925FBF1918DE6745000E9323 /* DRKTetrisScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRKTetrisScene.m; sourceTree = "<group>"; };
 		A9A486DC18D922B6004B8D4B /* Dr.K_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dr.K_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A486DF18D922B6004B8D4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9A486E118D922B6004B8D4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -135,6 +141,10 @@
 				A9A486F718D922B6004B8D4B /* ViewController.m */,
 				A9A486F918D922B6004B8D4B /* DRKMainMenuScene.h */,
 				A9A486FA18D922B6004B8D4B /* DRKMainMenuScene.m */,
+				925FBF1518DE6735000E9323 /* DRKGameController.h */,
+				925FBF1618DE6735000E9323 /* DRKGameController.m */,
+				925FBF1818DE6745000E9323 /* DRKTetrisScene.h */,
+				925FBF1918DE6745000E9323 /* DRKTetrisScene.m */,
 				A9A486FE18D922B7004B8D4B /* Images.xcassets */,
 				A9A486E818D922B6004B8D4B /* Supporting Files */,
 			);
@@ -272,6 +282,8 @@
 			files = (
 				A9A486FB18D922B6004B8D4B /* DRKMainMenuScene.m in Sources */,
 				A9A486F818D922B6004B8D4B /* ViewController.m in Sources */,
+				925FBF1718DE6735000E9323 /* DRKGameController.m in Sources */,
+				925FBF1A18DE6745000E9323 /* DRKTetrisScene.m in Sources */,
 				A9A486F218D922B6004B8D4B /* AppDelegate.m in Sources */,
 				A9A486EE18D922B6004B8D4B /* main.m in Sources */,
 			);
